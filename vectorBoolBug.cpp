@@ -1,0 +1,1 @@
+std::vector<bool> is not the same as `std::vector<char>` or other `std::vector` specializations. It uses bit packing and has different behavior regarding iterators, memory usage, etc.  Trying to use it interchangeably can lead to subtle errors.
