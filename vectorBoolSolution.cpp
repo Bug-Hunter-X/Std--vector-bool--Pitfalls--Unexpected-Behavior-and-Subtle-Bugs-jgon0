@@ -1,0 +1,1 @@
+Instead of using `std::vector<bool>`, consider using `std::vector<char>` (if single bits are required)  or a `std::vector<bool>` for better clarity and avoiding the subtle complexities of `std::vector<bool>`. If you have a specific need for bit packing,  consider using a more appropriate data structure like `std::bitset`.
